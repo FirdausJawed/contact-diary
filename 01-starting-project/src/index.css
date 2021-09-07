@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 html {
   font-family: cursive;
-  background-color: palegoldenrod;
+  background: paleturquoise;
+  text-align: center;
 }
 
 body {

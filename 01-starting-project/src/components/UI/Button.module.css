@@ -1,18 +1,17 @@
 .button {
-    font: inherit;
-    border: 1px solid white;
-    background: white;
-    color: palevioletred;
-    padding: 0.25rem 1rem;
-    cursor: pointer;
-  }
-  
-  .button:hover,
-  .button:active {
-    background: wheat;
-    border-color: palevioletred;
-  }
-  
-  .button:focus {
-    outline: none;
-  }
+  font: inherit;
+  border: 1px solid white;
+  background: palevioletred;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: whitesmoke;
+  border-color: palevioletred;
+}
+
+.button:focus {
+  outline: none;
+}

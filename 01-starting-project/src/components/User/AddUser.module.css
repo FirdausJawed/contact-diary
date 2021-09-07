@@ -7,7 +7,7 @@
   
   .input label {
     display: block;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 0.5rem;
     color: palevioletred;
   }

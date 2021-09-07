@@ -1,6 +1,8 @@
 import React from 'react';
-
-function AddUser (props){
+import Card from '../UI/Card';
+import classes from './AddUser.module.css';
+import Button from '../UI/Button';
+ function AddUser (props){
 
      const addUserHandeler = (event) => {
          event.preventDefault();
@@ -8,15 +10,18 @@ function AddUser (props){
 
 
     return (
-    <form onSubmit = {addUserHandeler}>
+        <div>
+      <Card className ={classes.input}>  
+        <form onSubmit = {addUserHandeler}>
           <label htmlFor="username">Username</label>
           <input id = "username" type="text"></input>
           <label htmlFor="age">Number</label>
           <input id = "age" type="number"></input>
-          <button type="submit">Add Contact</button>
+          <Button type="submit">Add Contact</Button>
 
-         </form>)
-
+        </form>
+       </Card>
+       </div>)
     
 }
 
